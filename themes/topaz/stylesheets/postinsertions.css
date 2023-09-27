@@ -1,0 +1,28 @@
+/* postinsertions stylesheet */
+img.pi-img {
+	margin: 0;
+	border: none;
+}
+code {}
+.pi-blockquote {
+	border: 1px solid red;
+}
+.pi-center {
+	text-align: center;
+	width: fit-content;
+	margin: auto;
+}
+.pi-attention {
+	color: red;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.pi-h3 {font-weight: normal}
+.pi-postupdated {font-style: italic; margin: -4em 0 2em 0}
+.pi-updatedicon {font-style: normal}
+.pi-updated {font-style: normal; font-weight: normal}
+.pi-smalltext {font-size: 90%}
+.pi-bigtext {font-size: 120%}
+.pi-separatetop {margin-top: 2em}
+.pi-separatebottom {margin-bottom: 2em}
+
