@@ -1,0 +1,6 @@
+{# this is the post-updated-feature: #}
+{% if (module_enabled("postupdated")) %}
+{% if post.updated is not empty %}
+<section class="pi-postupdated smalltext"><h3 class="pi-h3"><span class="pi-updatedicon">&#x1F4DD;&nbsp;</span><span class="pi-updated">{{ "Post updated:" | translate }}</span>&nbsp;&nbsp;&nbsp;{{ post.updated_at }}</h3></section>
+{% endif %}
+{% endif %}
